@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+*, *::before, *::after {
+
+    box-sizing: border-box;
+    font-family: Roboto, serif;
+}
+
+body {
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+
+p {
+    font-size: 2.0rem;
+}
+
+.hero {
+    padding: 100px 0;
+    color: white;
+    background-color: #23424A;
+}
+
+.container {
+    width: 80%;
+    max-width: 1300px;
+    margin: 0 auto;
+    /*border: 2px solid yellow;*/
+}
+
+.hero__text {
+    width: 70%;
+}
+
+.hero__padding {
+    margin-bottom: 3em;
+}
+
+.btn-primary {
+    text-decoration: none;
+    color: #23424A;
+    font-weight: 900;
+    font-size: 1.5rem;
+    display: inline-block;
+    padding: 1.2em 2.5em;
+    border-radius: 100px;
+    background-color: #38cfd9;
+}
+
+.btn:hover, .btn:focus {
+    opacity: .75;
+}
+
+.section__flex {
+    display: flex;
+    gap: 10px;
+    width: 80%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 5em;
+}
+
+.section__flex-heading-modifier {
+
+    color: #87629A;
+}
+
+.section__flex div p, .section__flex div h1 {
+    text-align: center;
+}
+
+.section-modifier {
+    background-color: #136C72;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.section__flex-modifier {
+    color: #fff;
+}
